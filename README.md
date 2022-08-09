@@ -7,3 +7,5 @@ I determined that the PMS5003a was a reasonable perfor,maer, which is probably w
 The flow "hwinfo64 remote sensor monitor flow.json" was a flow that worked in conjunction with HWiNFO64 and the addon named Remote Sensor Monitor. Node-Red was used to read the JSON data produced by the addon over the network then use it to log data. This was used to ID a machine that was malfunctioning due to thermal throttling.
 
 The flow "particulate sensor logging.json" is to log data from my homebrew particulate sensors so I could try to make an informed decision about which model of sensor I would use to build more remote sensors.
+
+The flow "storage.json" is to store the work I did to create a UI element that matches the color coded AQI values provided by the EPA.
